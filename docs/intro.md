@@ -1,6 +1,6 @@
 # **Documentation Snaptel**
 
-Votre page snap.tel est une page web que vous pouvez diffusez soit sous forme d’URL (lien internet) ou de popup sur votre site internet. Vous pouvez également télécharger le QR code associé à votre page snap.tel.
+Votre page snap.tel est une page web que vous pouvez diffusez soit sous forme d’URL (lien internet) ou de popup sur votre site internet. Vous pouvez également télécharger le QR code associé à votre page snap.tel
 
 # Page snap.tel
 
