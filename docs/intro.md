@@ -1,47 +1,97 @@
----
-sidebar_position: 1
----
+# **Documentation Snaptel**
 
-# Introduction
+Votre page snap.tel est une page web que vous pouvez diffusez soit sous forme d’URL (lien internet) ou de popup sur votre site internet. Vous pouvez également télécharger le QR code associé à votre page snap.tel
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Page snap.tel
 
-## Getting Started
+Ce guide de référence est votre point d’entrée pour configurer votre page.
 
-Get started by **creating a new site**.
+## **Informations**
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- Téléchargez votre logo.
+- Renseignez votre nom ou celui de l’entreprise. Le nom apparaitra en pied de page, à coté de la disponibilité.
+- Donnez en quelques lignes, une description  de votre activité.
+- Choisissez la couleur principale de votre marque. Exprimé en hexadécimale, de nombreux convertisseurs de couleur sont disponibles gratuitement en ligne
 
-### What you'll need
+## Appeler maintenant
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**Configurez les textes de votre page d'appel**
 
-## Generate a new site
+- Donnez un titre à votre page d’appel ; exemple, une phrase d'accroche.
+- Indiquez un sous-titre à votre page d’appel ; exemple, un slogan.
+- **Bouton d'appel :** indiquez le label qui sera visible sur votre bouton pour vos visiteurs.
 
-Generate a new Docusaurus site using the **classic template**.
+## Horaires d'ouverture
 
-The classic template will automatically be added to your project after you run the command:
+**Configurez les horaires d'ouverture de votre entreprise**
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+> Vous pouvez à tout moment spécifier si vous êtes disponible ou non, en dehors des **horaires d'ouverture.**
+> 
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Sélectionnez le fuseau horaire correspondant à votre lieu géographique.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## **Intégration du bouton d’appel sur votre site (Widget)**
 
-## Start your site
+Ajoutez facilement notre widget à votre site web pour afficher un bouton interactif qui ouvre une fenêtre modale vers votre page snap.tel. Ce widget fonctionne avec tous les types de sites, y compris les plateformes comme Shopify, WordPress, Wix, Webflow, ou des sites développés sur mesure.
 
-Run the development server:
+Plus de détails dans votre interface client.
 
-```bash
-cd my-website
-npm run start
-```
+# Extensions et passerelles
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Extensions
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Une extension est un compte SIP avec un canal pour émettre et recevoir des appels.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+L’extension est composé d’un nom d’utilisateur, d’un mot de passe et d’un domaine, qui se configurent soit sur un **téléphone IP** (Séries GRP Grandstream recommandés), soit sur un **softphone**.
+
+Softphone recommandé sur ordinateur : 
+
+https://www.zoiper.com/en/voip-softphone/download/current
+
+Softphone recommandé sur mobile *(en attendant le softphone snap.tel)* : 
+
+https://www.zoiper.com/en/voip-softphone/download/current
+
+Le domaine à utiliser est : sip.kiapel.com
+
+## Passerelles
+
+Une passerelle VoIP est **un périphérique matériel qui convertit le trafic téléphonique en paquets de données destinés à être transmis sur Internet, reliant ainsi le réseau analogique, cellulaire et IP** .
+
+un IPBX est ***un système de téléphonie interne à l'entreprise qui repose sur le protocole Internet***.
+
+Pour connecter votre IPBX à Snap.tel, vous devez configurer un trunk sur celui ci, avec les paramètres de passerelles qui comporte comme pour les extensions un nom d’utilisateur, un mot de passe et un domaine.
+
+Le domaine à utiliser est : sip.kiapel.com
+
+Définition : Un ***Trunk SIP*** est un moyen de connecter un système téléphonique IP (IPBX) à un fournisseur de services de voix via Internet (Snap.tel)
+
+# Liste d’appels
+
+Comprend l’historique des appels reçus incluant les informations suivantes :
+
+| **Date et Heure** | **Appelant** | **Destination** | **Durée** | **Statut** | **Enregistrement** |
+| --- | --- | --- | --- | --- | --- |
+
+Date et heure de l’appel selon votre fuseau horaire
+
+Appelant : nom de l’appelant si celui-ci a été renseigné sur votre page snap.tel
+
+Destination : indique le poste qui a reçu l’appel
+
+Durée de l’appel en minute, seconde
+
+Statut de l’appel : **Répondu - Pas de réponse - Fermé - Poste indisponible - Annulé** *(raccroché par l’appelant)*
+
+Enregistrement : pour écouter l’enregistrement audio de la conversation si disponible dans votre formule.
+
+<aside>
+💡
+
+Vous pouvez aussi télécharger vos enregistrements, et voir les informations Nom, Téléphone et E-mail, laisser par l’appelant.
+
+</aside>
+
+# **Paramètres**
+
+Comporte les informations générales de votre compte snap.tel
