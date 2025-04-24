@@ -1,96 +1,70 @@
-# Documentation Snaptel
+---
+sidebar_position: 1
+---
 
-Votre page snap.tel est une page web que vous pouvez diffusez soit sous forme d’URL (lien internet) ou de popup sur votre site internet. Vous pouvez également télécharger le QR code associé à votre page snap.tel
+# Documentation Couvrup
 
-# Page snap.tel
+# ![Logo de CouvrUp](../static/img/logo_horizontal.svg)
 
-Ce guide de référence est votre point d’entrée pour configurer votre page.
+## CouvrUp - Estimez le coût de votre toiture en 3 secondes
 
-## **Informations**
+**CouvrUp** est une solution innovante qui permet aux particuliers et aux professionnels de **renseigner les dimensions de leur toiture** pour obtenir **en seulement 3 secondes une estimation indicative du prix de leurs travaux**.
 
-- Téléchargez votre logo.
-- Renseignez votre nom ou celui de l’entreprise. Le nom apparaitra en pied de page, à coté de la disponibilité.
-- Donnez en quelques lignes, une description de votre activité.
-- Choisissez la couleur principale de votre marque. Exprimé en hexadécimale, de nombreux convertisseurs de couleur sont disponibles gratuitement en ligne
+Pour obtenir un **devis personnalisé et complet**, contactez notre équipe dès aujourd’hui.
 
-## Appeler maintenant
+---
 
-**Configurez les textes de votre page d'appel**
+## 📚 Documentation technique
 
-- Donnez un titre à votre page d’appel ; exemple, une phrase d'accroche.
-- Indiquez un sous-titre à votre page d’appel ; exemple, un slogan.
-- **Bouton d'appel :** indiquez le label qui sera visible sur votre bouton pour vos visiteurs.
+La documentation de CouvrUp est divisée en deux grandes parties, correspondant aux deux environnements principaux de notre infrastructure :
 
-## Horaires d'ouverture
+### 1. 🔧 Partie SaaS (Back-office & gestion client)
 
-**Configurez les horaires d'ouverture de votre entreprise**
+Cette partie concerne la plateforme utilisée par les équipes internes et les clients pour :
 
-> Vous pouvez à tout moment spécifier si vous êtes disponible ou non, en dehors des **horaires d'ouverture.**
+- La **gestion des comptes utilisateurs** (clients, partenaires, administrateurs)
+- Le **suivi des demandes et des devis**
+- La **consultation de statistiques et KPI** en temps réel
+- L’accès aux **documents et fichiers liés aux projets**
+- La **gestion des droits et des accès**
 
-Sélectionnez le fuseau horaire correspondant à votre lieu géographique.
+> Cette plateforme est conçue comme une interface SaaS intuitive, sécurisée et performante, intégrant des outils d'analyse et d'automatisation.
 
-## **Intégration du bouton d’appel sur votre site (Widget)**
+---
 
-Ajoutez facilement notre widget à votre site web pour afficher un bouton interactif qui ouvre une fenêtre modale vers votre page snap.tel. Ce widget fonctionne avec tous les types de sites, y compris les plateformes comme Shopify, WordPress, Wix, Webflow, ou des sites développés sur mesure.
+### 2. 🌐 Partie Prismic (CMS & contenu du site internet)
 
-Plus de détails dans votre interface client.
+Nous utilisons **Prismic** comme CMS headless pour :
 
-# Extensions et passerelles
+- La **gestion du contenu éditorial** du site (pages, sections, textes, images)
+- L’**édition rapide et flexible** des éléments visibles sur le site CouvrUp
+- La **mise à jour en temps réel** du contenu sans intervention des développeurs
 
-## Extensions
+> Ce découplage permet une indépendance totale entre les équipes techniques et marketing, assurant une plus grande agilité et réactivité.
 
-Une extension est un compte SIP avec un canal pour émettre et recevoir des appels.
+---
 
-L’extension est composé d’un nom d’utilisateur, d’un mot de passe et d’un domaine, qui se configurent soit sur un **téléphone IP** (Séries GRP Grandstream recommandés), soit sur un **softphone**.
+## 🚀 Déploiement & intégration
 
-Softphone recommandé sur ordinateur :
+La solution CouvrUp s’appuie sur un ensemble d’outils modernes et performants pour garantir un déploiement fiable, une intégration fluide, ainsi qu’une gestion sécurisée et scalable de l’ensemble des fonctionnalités de la plateforme.
 
-https://www.zoiper.com/en/voip-softphone/download/current
+### 🔧 Outils utilisés
 
-Softphone recommandé sur mobile _(en attendant le softphone snap.tel)_ :
+- **[Neon.tech](https://console.neon.tech/)** : base de données PostgreSQL scalable et managée.
+- **Supabase** : stockage de fichiers, authentification, et API en temps réel.
+- **Resend** : envoi d’e-mails transactionnels.
+- **Prismic** : CMS headless pour la gestion du contenu éditorial du site web.
+- **GitHub** : gestion du code source et des versions du projet.
+- **Make** : automatisation des workflows entre les services (API, email, stockage…).
+- **Ionos** : infrastructure complémentaire pour certains services d’hébergement ou domaines.
+- **DocuSign / Yousign** : signature électronique de documents.
+- **[Vercel](https://vercel.com)** : déploiement du site web frontend avec gestion des environnements (préprod, prod).
+- **PostHog** : analyse comportementale des utilisateurs et suivi analytique du site.
 
-https://www.zoiper.com/en/voip-softphone/download/current
+> Cette stack technologique permet à CouvrUp de garantir performance, sécurité et évolutivité, tout en facilitant le travail des équipes techniques, marketing et support.
 
-Le domaine à utiliser est : sip.kiapel.com
+---
 
-## Passerelles
+## 📩 Support
 
-Une passerelle VoIP est **un périphérique matériel qui convertit le trafic téléphonique en paquets de données destinés à être transmis sur Internet, reliant ainsi le réseau analogique, cellulaire et IP** .
-
-un IPBX est **_un système de téléphonie interne à l'entreprise qui repose sur le protocole Internet_**.
-
-Pour connecter votre IPBX à Snap.tel, vous devez configurer un trunk sur celui ci, avec les paramètres de passerelles qui comporte comme pour les extensions un nom d’utilisateur, un mot de passe et un domaine.
-
-Le domaine à utiliser est : sip.kiapel.com
-
-Définition : Un **_Trunk SIP_** est un moyen de connecter un système téléphonique IP (IPBX) à un fournisseur de services de voix via Internet (Snap.tel)
-
-# Liste d’appels
-
-Comprend l’historique des appels reçus incluant les informations suivantes :
-
-| **Date et Heure** | **Appelant** | **Destination** | **Durée** | **Statut** | **Enregistrement** |
-| ----------------- | ------------ | --------------- | --------- | ---------- | ------------------ |
-
-Date et heure de l’appel selon votre fuseau horaire
-
-Appelant : nom de l’appelant si celui-ci a été renseigné sur votre page snap.tel
-
-Destination : indique le poste qui a reçu l’appel
-
-Durée de l’appel en minute, seconde
-
-Statut de l’appel : **Répondu - Pas de réponse - Fermé - Poste indisponible - Annulé** _(raccroché par l’appelant)_
-
-Enregistrement : pour écouter l’enregistrement audio de la conversation si disponible dans votre formule.
-
-<aside>
-💡
-
-Vous pouvez aussi télécharger vos enregistrements, et voir les informations Nom, Téléphone et E-mail, laisser par l’appelant.
-
-</aside>
-
-# **Paramètres**
-
-Comporte les informations générales de votre compte snap.tel
+Pour toute question technique ou demande d’intégration, veuillez nous contacter à [thomasbelenuspro@gmail.com](mailto:thomasbelenuspro@gmail.com).
