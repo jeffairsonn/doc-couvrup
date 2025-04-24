@@ -9,7 +9,7 @@ const config = {
   title: "Documentation Couvrup",
   tagline:
     "Vous souhaitez en savoir plus sur le fonctionnement de Couvrup ? Retrouvez ici tous nos tutoriels et guide pratique",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://doc-couvrup.vercel.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -50,7 +50,6 @@ const config = {
         logo: {
           alt: "My Site Logo",
           src: "img/logo_horizontal.svg",
-          srcDark: "img/logo-dark.svg",
         },
         items: [
           {
