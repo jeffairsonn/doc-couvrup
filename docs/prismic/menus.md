@@ -26,6 +26,6 @@ Voici a quoi correspondent les différents menus listés sur la page :
 - On aégalement la possibilité d'ajouter des éléments dans le menu avec un label et un lien. Le lien se fait vers une page dusite que l'on peut choisir en cliquand ici :
 
 <video width="100%" height="auto" controls>
-  <source src="./video/link_page.mov" type="video/mov" />
+  <source src="./video/link_page.mp4" type="video/mov" />
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
