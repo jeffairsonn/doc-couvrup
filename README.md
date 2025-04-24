@@ -1,4 +1,4 @@
-# ![Logo de CouvrUp](./logo-couvrup.png)
+# ![Logo de CouvrUp](./static/img/logo_horizontal.svg)
 
 ## CouvrUp - Estimez le coût de votre toiture en 3 secondes
 

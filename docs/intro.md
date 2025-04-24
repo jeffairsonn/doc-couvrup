@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Documentation Couvrup
+# Introduction
 
 # ![Logo de CouvrUp](../static/img/logo_horizontal.svg)
 
