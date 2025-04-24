@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Documentation Snap.tel",
+  title: "Documentation Couvrup",
   tagline:
-    "Vous souhaitez en savoir plus sur le fonctionnement de Snap.tel ? Retrouvez ici tous nos tutoriels et guide pratique",
+    "Vous souhaitez en savoir plus sur le fonctionnement de Couvrup ? Retrouvez ici tous nos tutoriels et guide pratique",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -64,7 +64,7 @@ const config = {
       footer: {
         style: "dark",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Snap.tel, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Couvrup, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
