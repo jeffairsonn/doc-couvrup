@@ -49,7 +49,7 @@ const config = {
         title: "",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/logo_horizontal.svg",
           srcDark: "img/logo-dark.svg",
         },
         items: [
