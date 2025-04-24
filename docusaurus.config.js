@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Documentation Couvrup",
   tagline:
-    "Vous souhaitez en savoir plus sur le fonctionnement de Couvrup ? Retrouvez ici tous nos tutoriels et guide pratique",
+    "Comment la plateform Couvrup fonctionne ? Tous les détails dans cette documentation complète !",
   url: "https://doc-couvrup.vercel.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
